@@ -1,0 +1,6 @@
+{{ knp_menu_render('main') }}
+
+{% if page.title is defined %}
+    {{ page.title }}<br />
+    {{ page.content }}
+{% endif %}
